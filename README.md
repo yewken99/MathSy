@@ -1,17 +1,17 @@
-# MathSy 🧮
+# MathSy - SPM Mathematic Preparation System (Bilingual)
 
 ## Personalized AI-Powered SPM Mathematics Learning Platform
 
 MathSy is an **AI-powered personalized learning platform designed to support Malaysian SPM Mathematics students** through intelligent question solving, AI tutoring, personalized learning, machine learning-based recommendations, and learning analytics.
 
-The system combines **Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Machine Learning, mathematical verification, and adaptive learning techniques** to provide students with a personalized learning experience aligned with the SPM Mathematics syllabus.
+The system combines **Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Machine Learning, mathematical verification, and adaptive learning techniques** to provide students with a personalized learning experience aligned with the SPM Mathematics syllabus. It support both Bahasa Melayu and English syllabus to tackle for both DLP and Non-DLP Mathematics syllabus. With a user friendly laptop/tablet/mobile interface.
 
-> 🎓 Final Year Project — Bachelor of Science (Hons) in Computer Science with a Specialism in Artificial Intelligence
+> Final Year Project — Bachelor of Science (Hons) in Computer Science with a Specialism in Artificial Intelligence
 > Asia Pacific University of Technology & Innovation (APU)
 
 ---
 
-# 📖 Project Overview
+# Project Overview
 
 Mathematics is an important subject in the Malaysian SPM examination, but students often face difficulties identifying their weaknesses, understanding complex questions, and receiving personalized guidance outside the classroom.
 
@@ -21,23 +21,23 @@ Traditional learning platforms generally provide the same exercises and resource
 
 The platform integrates multiple AI and machine learning components to:
 
-* 📷 Process mathematics questions
-* 🤖 Provide AI-powered mathematical tutoring
-* 🧮 Generate step-by-step mathematical solutions
-* ✍️ Check students' mathematical working
-* 📚 Retrieve relevant SPM questions and marking schemes
-* 🧠 Predict student performance
-* 📊 Analyze study patterns
-* 🎯 Recommend topics for improvement
-* 🔄 Adapt practice based on student mastery
-* 📝 Generate targeted review questions
-* 📈 Track student learning progress
+* Process mathematics questions
+* Provide AI-powered mathematical tutoring
+* Generate step-by-step mathematical solutions
+* Check students' mathematical working
+* Retrieve relevant SPM questions and marking schemes
+* Predict student performance
+* Analyze study patterns
+* Recommend topics for improvement
+* Adapt practice based on student mastery
+* Generate targeted review questions
+* Track student learning progress
 
 ---
 
-# ✨ Main Features
+# Main Features
 
-## 1. 📷 Quick Snap AI
+## 1. Quick Snap AI
 
 Quick Snap allows students to upload an image of a mathematics question.
 
@@ -80,7 +80,7 @@ This allows students to understand:
 
 ---
 
-# 2. 🤖 AI Mathematics Tutor
+# 2. AI Mathematics Tutor
 
 MathSy includes an AI-powered mathematics chatbot designed to act as a virtual mathematics tutor.
 
@@ -98,7 +98,7 @@ Instead of simply returning an answer, the tutor is designed to help students un
 
 ---
 
-# 3. 🔎 Retrieval-Augmented Generation (RAG)
+# 3. Retrieval-Augmented Generation (RAG)
 
 MathSy uses **Retrieval-Augmented Generation (RAG)** to ground AI-generated responses in SPM-specific learning materials.
 
@@ -143,7 +143,7 @@ The RAG component helps ensure that generated responses remain relevant to the *
 
 ---
 
-# 4. 🧮 Mathematical Solver & Verification
+# 4. Mathematical Solver & Verification
 
 Large Language Models are not always reliable at mathematical calculations.
 
@@ -196,7 +196,7 @@ This architecture reduces dependency on the LLM for numerical calculations while
 
 ---
 
-# 5. 🧠 Machine Learning System
+# 5. Machine Learning System
 
 MathSy also includes a dedicated **Machine Learning component** for analyzing student learning behavior and providing personalized insights.
 
@@ -221,7 +221,7 @@ The machine learning component consists of three main models:
 
 ---
 
-## 5.1 📈 Grade Prediction Model
+## 5.1 Grade Prediction Model
 
 The Grade Prediction Model estimates a student's potential mathematics performance based on their historical learning and assessment data.
 
@@ -253,7 +253,7 @@ Student Dashboard
 
 ---
 
-# 5.2 📊 Study Pattern Analyzer
+# 5.2 Study Pattern Analyzer
 
 The Study Pattern Analyzer analyzes how students interact with the platform.
 
@@ -285,7 +285,7 @@ Learning Behaviour Insights
 
 ---
 
-# 5.3 🎯 Topic Recommender
+# 5.3 Topic Recommender
 
 The Topic Recommender identifies mathematics topics that students should focus on based on their historical performance.
 
@@ -318,7 +318,7 @@ The objective is to avoid giving every student the same practice questions.
 
 ---
 
-# 6. 🎯 Adaptive Learning
+# 6. Adaptive Learning
 
 MathSy incorporates an **ELO-inspired rating system** to estimate student mastery and question difficulty.
 
@@ -342,7 +342,7 @@ This enables the platform to provide progressively more appropriate practice que
 
 ---
 
-# 7. 📝 Targeted Review Generation
+# 7. Targeted Review Generation
 
 When a student struggles with a question, MathSy can generate a targeted review question based on the original problem.
 
@@ -377,7 +377,7 @@ This creates a continuous learning cycle rather than treating each question as a
 
 ---
 
-# 8. 📊 Student Dashboard & Learning Analytics
+# 8. Student Dashboard & Learning Analytics
 
 MathSy provides students with an overview of their learning progress.
 
@@ -397,7 +397,7 @@ The goal is to help students understand **how they are progressing and where the
 
 ---
 
-# 🏗️ Overall System Architecture
+# Overall System Architecture
 
 MathSy consists of several interconnected components.
 
@@ -452,7 +452,7 @@ MathSy consists of several interconnected components.
 
 ---
 
-# 🔄 Complete Learning Cycle
+# Complete Learning Cycle
 
 One of MathSy's key concepts is connecting all components into a continuous learning loop.
 
@@ -546,7 +546,7 @@ This creates a **closed-loop personalized learning system**.
 
 ---
 
-# 🗂️ System Components
+# System Components
 
 | Component              | Purpose                                              |
 | ---------------------- | ---------------------------------------------------- |
@@ -582,7 +582,7 @@ The project aims to:
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```text
 MathSy/
@@ -622,7 +622,7 @@ MathSy/
 
 ---
 
-# 🚀 Getting Started
+# Getting Started
 
 ## Prerequisites
 
@@ -686,7 +686,7 @@ npm run dev
 
 ---
 
-# 🔐 Environment Variables
+# Environment Variables
 
 Create a `.env` file for sensitive configuration.
 
@@ -718,7 +718,7 @@ node_modules/
 
 ---
 
-# ⚠️ Limitations
+# Limitations
 
 As an academic prototype, MathSy has several limitations:
 
@@ -732,26 +732,25 @@ As an academic prototype, MathSy has several limitations:
 
 ---
 
-# 🚀 Future Enhancements
+# Future Enhancements
 
 Future development could include:
 
-* 📱 Dedicated mobile application
-* 🎙️ Voice-based AI mathematics tutor
-* ✍️ Improved handwritten mathematical work recognition
-* 📐 Better mathematical diagram understanding
-* 👨‍🏫 Teacher dashboard
-* 🏫 Classroom management functionality
-* 📚 Support for additional SPM subjects
-* 📝 Automated full SPM practice paper generation
-* 🧠 More advanced student knowledge modelling
-* 🤝 Multi-agent mathematical reasoning
-* 📊 More advanced learning analytics
-* 🔄 Continuous model improvement using additional learning data
+* Voice-based AI mathematics tutor
+* Improved handwritten mathematical work recognition
+* Better mathematical diagram understanding
+* Teacher dashboard
+* Classroom management functionality
+* Support for additional SPM subjects
+* Automated full SPM practice paper generation
+* More advanced student knowledge modelling
+* Multi-agent mathematical reasoning
+* More advanced learning analytics
+* Continuous model improvement using additional learning data
 
 ---
 
-# 👥 Project Team
+# Project Team
 
 MathSy was developed as a Final Year Project at **Asia Pacific University of Technology & Innovation (APU)**.
 
@@ -766,7 +765,7 @@ MathSy was developed as a Final Year Project at **Asia Pacific University of Tec
 
 ---
 
-# 🎓 Academic Context
+# Academic Context
 
 This project was developed as part of the requirements for the **Bachelor of Science (Hons) in Computer Science with a Specialism in Artificial Intelligence**.
 
@@ -792,7 +791,7 @@ Artificial Intelligence
 
 ---
 
-# ⭐ What Makes MathSy Different?
+# ⭐ What Makes MathSy Different? ⭐
 
 MathSy is designed to go beyond simply answering mathematics questions.
 
